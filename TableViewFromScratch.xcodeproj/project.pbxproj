@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		F4C432CC1BB41E1B008AE4A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C432CB1BB41E1B008AE4A8 /* AppDelegate.swift */; };
-		F4C432CE1BB41E1B008AE4A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C432CD1BB41E1B008AE4A8 /* ViewController.swift */; };
 		F4C432D11BB41E1B008AE4A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C432CF1BB41E1B008AE4A8 /* Main.storyboard */; };
 		F4C432D31BB41E1B008AE4A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C432D21BB41E1B008AE4A8 /* Assets.xcassets */; };
 		F4C432D61BB41E1B008AE4A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C432D41BB41E1B008AE4A8 /* LaunchScreen.storyboard */; };
 		F4C432E11BB41E1B008AE4A8 /* TableViewFromScratchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C432E01BB41E1B008AE4A8 /* TableViewFromScratchTests.swift */; };
 		F4C432EC1BB41E1B008AE4A8 /* TableViewFromScratchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C432EB1BB41E1B008AE4A8 /* TableViewFromScratchUITests.swift */; };
+		F4C432FA1BB41F42008AE4A8 /* CityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C432F91BB41F42008AE4A8 /* CityTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F4C432FC1BB422CD008AE4A8 /* CityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C432FB1BB422CD008AE4A8 /* CityDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F4C432FE1BB42A27008AE4A8 /* AddCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C432FD1BB42A27008AE4A8 /* AddCityViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		F4C432C81BB41E1B008AE4A8 /* TableViewFromScratch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewFromScratch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C432CB1BB41E1B008AE4A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4C432CD1BB41E1B008AE4A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F4C432D01BB41E1B008AE4A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4C432D21BB41E1B008AE4A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4C432D51BB41E1B008AE4A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		F4C432E71BB41E1B008AE4A8 /* TableViewFromScratchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewFromScratchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C432EB1BB41E1B008AE4A8 /* TableViewFromScratchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewFromScratchUITests.swift; sourceTree = "<group>"; };
 		F4C432ED1BB41E1B008AE4A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C432F91BB41F42008AE4A8 /* CityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityTableViewController.swift; sourceTree = "<group>"; };
+		F4C432FB1BB422CD008AE4A8 /* CityDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityDetailViewController.swift; sourceTree = "<group>"; };
+		F4C432FD1BB42A27008AE4A8 /* AddCityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				F4C432CB1BB41E1B008AE4A8 /* AppDelegate.swift */,
-				F4C432CD1BB41E1B008AE4A8 /* ViewController.swift */,
+				F4C432F91BB41F42008AE4A8 /* CityTableViewController.swift */,
+				F4C432FB1BB422CD008AE4A8 /* CityDetailViewController.swift */,
+				F4C432FD1BB42A27008AE4A8 /* AddCityViewController.swift */,
 				F4C432CF1BB41E1B008AE4A8 /* Main.storyboard */,
 				F4C432D21BB41E1B008AE4A8 /* Assets.xcassets */,
 				F4C432D41BB41E1B008AE4A8 /* LaunchScreen.storyboard */,
@@ -255,8 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4C432CE1BB41E1B008AE4A8 /* ViewController.swift in Sources */,
+				F4C432FA1BB41F42008AE4A8 /* CityTableViewController.swift in Sources */,
+				F4C432FC1BB422CD008AE4A8 /* CityDetailViewController.swift in Sources */,
 				F4C432CC1BB41E1B008AE4A8 /* AppDelegate.swift in Sources */,
+				F4C432FE1BB42A27008AE4A8 /* AddCityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
